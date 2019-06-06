@@ -26,7 +26,7 @@ RUN \
 RUN unzip /tmp/go-agent-19.4.0-9155.zip -d /
 RUN mv /go-agent-19.4.0 /go-agent
 
-FROM fedora:29
+FROM fedora:30
 MAINTAINER ThoughtWorks, Inc. <support@thoughtworks.com>
 
 LABEL gocd.version="19.4.0" \
